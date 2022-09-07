@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/the-botting-company/nfsm"
+	"github.com/nigzht/nfsm"
 )
 
 func main() {
