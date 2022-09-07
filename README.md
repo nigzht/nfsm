@@ -7,7 +7,7 @@ nfsm is a type of non-deterministic state machine. Next states are determined by
 ## Installation
 
 ```
-go get github.com/the-botting-company/nfsm@latest
+go get github.com/nigzht/nfsm@latest
 ```
 
 ## Example
@@ -52,7 +52,7 @@ func main() {
 			return "", nil
 		},
 	}
-	
+
 	if err := nfsm.NewNfsm(context.Background(), nfsm.NewFlow("generate", h)).Execute(); err != nil {
 		fmt.Errorf("%v", err)
 	}
